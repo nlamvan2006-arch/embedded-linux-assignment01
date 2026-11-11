@@ -1,0 +1,29 @@
+# Kernel build files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+
+# Root filesystem and generated images
+rootfs/
+output/
+*.cpio
+*.cpio.gz
+*.img
+*.zImage
+*.dtb
+
+# Generated binaries
+test_asgn1
+
+# Editor and temporary files
+*~
+*.swp
+*.bak
